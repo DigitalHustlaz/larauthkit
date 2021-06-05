@@ -1,16 +1,8 @@
-
-### Package Name: SSO Laravel with Keycloak 
-## Author: Pasha Zahari
-## Website: https://digitalhustlaz.com
-### Contact: support@digitalhustlaz.com
-## License: MIT License
-
-
-# Migrating to Authkit
+# Migrating to Larauthkit
 
 When you already have an existing project with an existing set of users.
 
-## Install Authkit
+## Install Larauthkit
 
 ### Fix Dependencies
 
