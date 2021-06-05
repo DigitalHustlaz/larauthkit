@@ -1,11 +1,6 @@
 
-## Package Name: SSO Laravel with Keycloak 
-# Author: Pasha Zahari
-### Website: https://digitalhustlaz.com
-## Contact: support@digitalhustlaz.com
-# License: MIT License
 
-# Authkit Setup
+# Larauthkit Setup
 
 How to set up a brand new Laravel project to use Authkit.
 
