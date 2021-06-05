@@ -1,0 +1,35 @@
+{
+	"name": "dht/larauthkit",
+	"description": "Laravel Keycloak SSO Integration",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Pasha Zahari",
+			"email": "pashaz@digitalhustlaz.com"
+		}
+	],
+	"require": {
+		"laravel/socialite": "^5.2",
+		"socialiteproviders/keycloak": "^4.1",
+		"ory/keto-client-php": "^0.5.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"Dht\\Auth\\": "src"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"dht\\Auth\\Providers\\AuthkitServiceProvider",
+				"SocialiteProviders\\Manager\\ServiceProvider"
+			]
+		}
+	},
+	"require-dev": {
+		"friendsofphp/php-cs-fixer": "^2.18",
+		"phan/phan": "^4.0",
+		"laravel/framework": "^8.31"
+	}
+}
