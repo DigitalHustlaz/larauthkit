@@ -1,4 +1,4 @@
-# authkit
+# Larauthkit
 Laravel Keycloak SSO Integration
 
 Drop-in single-sign-on solution for Laravel projects.
