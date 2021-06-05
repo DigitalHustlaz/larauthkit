@@ -22,7 +22,7 @@
 	"extra": {
 		"laravel": {
 			"providers": [
-				"dhtech\\Auth\\Providers\\AuthkitServiceProvider",
+				"Dhtech\\Auth\\Providers\\AuthkitServiceProvider",
 				"SocialiteProviders\\Manager\\ServiceProvider"
 			]
 		}
