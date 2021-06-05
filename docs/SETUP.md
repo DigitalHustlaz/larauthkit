@@ -2,7 +2,7 @@
 
 # Larauthkit Setup
 
-How to set up a brand new Laravel project to use Authkit.
+How to set up a brand new Laravel project to use Larauthkit.
 
 ## Create Laravel Project
 
