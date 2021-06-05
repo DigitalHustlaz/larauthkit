@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Dht\Auth\Providers;
+namespace Dhtech\Auth\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

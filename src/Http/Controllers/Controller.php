@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Dht\Auth\Http\Controllers;
+namespace Dhtech\Auth\Http\Controllers;
 
 use Illuminate\Routing\Controller as BaseController;
 

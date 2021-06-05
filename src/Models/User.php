@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Dht\Auth\Models;
+namespace Dhtech\Auth\Models;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 

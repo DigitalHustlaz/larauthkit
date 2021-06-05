@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use Dht\Auth\Http\Controllers\AuthenticationController;
+use Dhtech\Auth\Http\Controllers\AuthenticationController;
 
 \Route::get('/login', [AuthenticationController::class, 'login'])->name('login');
 \Route::get('/logout', [AuthenticationController::class, 'logout'])->name('logout');

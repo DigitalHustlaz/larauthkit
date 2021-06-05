@@ -1,8 +1,13 @@
 
+## Package Name: SSO Laravel with Keycloak 
+# Author: Pasha Zahari
+### Website: https://digitalhustlaz.com
+## Contact: support@digitalhustlaz.com
+# License: MIT License
 
-# Larauthkit Setup
+# Authkit Setup
 
-How to set up a brand new Laravel project to use Larauthkit.
+How to set up a brand new Laravel project to use Authkit.
 
 ## Create Laravel Project
 
@@ -51,7 +56,7 @@ This will hopefully be resolved soon with an update upstream.
 In your project's folder:
 
 ```
-$ composer require dht/larauthkit
+$ composer require dhtech/larauthkit
 ```
 
 Laravel will automatically discover the required configuration and service
@@ -64,7 +69,7 @@ Configure your database and perform any other initial configuration/setup requir
 ## Run Database Migrations
 
 ```
-$ php artisan vendor:publish --provider="Dht\Auth\Providers\AuthkitServiceProvider" --tag="migrations"
+$ php artisan vendor:publish --provider="Dhtech\Auth\Providers\AuthkitServiceProvider" --tag="migrations"
 $ php artisan migrate
 ```
 
@@ -106,7 +111,7 @@ class User extends Authenticatable
 With:
 
 ```php
-class User extends \Dht\Auth\Models\User
+class User extends \Dhtech\Auth\Models\User
 {
 ```
 

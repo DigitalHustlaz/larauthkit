@@ -1,8 +1,16 @@
-# Migrating to Larauthkit
+
+### Package Name: SSO Laravel with Keycloak 
+## Author: Pasha Zahari
+## Website: https://digitalhustlaz.com
+### Contact: support@digitalhustlaz.com
+## License: MIT License
+
+
+# Migrating to Authkit
 
 When you already have an existing project with an existing set of users.
 
-## Install Larauthkit
+## Install Authkit
 
 ### Fix Dependencies
 
@@ -42,7 +50,7 @@ This will hopefully be resolved soon with an update upstream.
 In your project's folder:
 
 ```
-$ composer require dht/larauthkit
+$ composer require dhtech/larauthkit
 ```
 
 Laravel will automatically discover the required configuration and service
@@ -121,7 +129,7 @@ namespace App\Listeners;
 
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Queue\InteractsWithQueue;
-use \Dht\Auth\Events\UserRegistration;
+use \Dhtech\Auth\Events\UserRegistration;
 
 class UserMigrationListener
 {
@@ -165,7 +173,7 @@ the UserRegistration event. For example:
 class EventServiceProvider extends ServiceProvider
 {
     protected $listen = [
-		\Dht\Auth\Events\UserRegistration::class => [
+		\Dhtech\Auth\Events\UserRegistration::class => [
 			\App\Listeners\UserMigrationListener::class
 		]
     ];

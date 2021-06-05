@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Dht\Auth\Events;
+namespace Dhtech\Auth\Events;
 
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Foundation\Events\Dispatchable;

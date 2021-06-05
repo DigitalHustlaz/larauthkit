@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Dht\Auth\Http\Controllers;
+namespace Dhtech\Auth\Http\Controllers;
 
 /**
  * Methods for handling user authentication operations
@@ -57,7 +57,7 @@ class AuthenticationController extends Controller
 			$user->{$id_field} = $user_crn;
 			$user->name = $sso_user->getName();
 			$user->email = $sso_user->getEmail();
-			$register_event_result = event(new \Dht\Auth\Events\UserRegistration($user));
+			$register_event_result = event(new \Dhtech\Auth\Events\UserRegistration($user));
 			if (sizeof($register_event_result))
 			{
 				foreach ($register_event_result as $result)
@@ -82,7 +82,7 @@ class AuthenticationController extends Controller
 			$user->save();
 		}
 
-		event(new \Dht\Auth\Events\UserLogin($user));
+		event(new \Dhtech\Auth\Events\UserLogin($user));
 
 		return redirect(url(config('larauthkit.authn.urls.post_login')));
 	}
@@ -94,7 +94,7 @@ class AuthenticationController extends Controller
 	 */
 	public function logout()
 	{
-		event(new \Dht\Auth\Events\UserLogout(\Auth::user()));
+		event(new \Dhtech\Auth\Events\UserLogout(\Auth::user()));
 		// Log out locally
 		\Auth::logout();
 		// Redirect to log out remotely as well

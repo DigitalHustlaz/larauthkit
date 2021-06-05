@@ -1,5 +1,5 @@
 {
-	"name": "dht/larauthkit",
+	"name": "dhtech/larauthkit",
 	"description": "Laravel Keycloak SSO Integration",
 	"type": "library",
 	"license": "MIT",
@@ -16,13 +16,13 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Dht\\Auth\\": "src"
+			"Dhtech\\Auth\\": "src"
 		}
 	},
 	"extra": {
 		"laravel": {
 			"providers": [
-				"dht\\Auth\\Providers\\AuthkitServiceProvider",
+				"dhtech\\Auth\\Providers\\AuthkitServiceProvider",
 				"SocialiteProviders\\Manager\\ServiceProvider"
 			]
 		}

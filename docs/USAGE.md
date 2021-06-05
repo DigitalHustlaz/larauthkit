@@ -1,3 +1,11 @@
+
+### Package Name: SSO Laravel with Keycloak 
+### Author: Pasha Zahari
+### Website: https://digitalhustlaz.com
+### Contact: support@digitalhustlaz.com
+### License: MIT License
+### DATE: 06052021
+
 # Usage
 
 What the larauthkit package does and how to customize it.
@@ -175,7 +183,7 @@ If it's absolutely required to change the behaviour, you can generate the defaul
 configuration by running:
 
 ```
-$ php artisan vendor:publish --provider="Dht\Auth\Providers\AuthkitServiceProvider" --tag="config"
+$ php artisan vendor:publish --provider="Dhtech\Auth\Providers\AuthkitServiceProvider" --tag="config"
 ```
 
 You can then adjust the configuration by editing the `config/larauthkit.php` file
