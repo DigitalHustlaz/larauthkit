@@ -1,11 +1,3 @@
-
-### Package Name: SSO Laravel with Keycloak 
-### Author: Pasha Zahari
-### Website: https://digitalhustlaz.com
-### Contact: support@digitalhustlaz.com
-### License: MIT License
-### DATE: 06052021
-
 # Usage
 
 What the larauthkit package does and how to customize it.
